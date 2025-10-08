@@ -2,6 +2,11 @@
 
 def solve():
 # Ниже пишите решение задачи
+    a=int(input("число"))
+    a=a%1440
+    hours=a//60
+    min=a%60
+    print(hours,min)
 
    
 
