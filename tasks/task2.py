@@ -2,7 +2,7 @@
 
 def solve():
 # Ниже пишите решение задачи
-    a=int(input("число"))
+    a=int(input())
     a=a%1440
     hours=a//60
     min=a%60
